@@ -1,0 +1,293 @@
+:root {
+    --lime: #3acb4c;
+}    
+    
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: gray;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #fff;
+}
+
+
+h1 {
+    color: black;
+}
+
+.navbar-brand {
+    color: var(--lime);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+}
+
+#nav-download {
+    background-color: var(--lime);
+    color: white;
+    /* padding: 0 20px; */
+    border-radius: 10px;
+    /* margin-top: 3px; */
+}
+
+#home {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.heading-lime {
+    color: var(--lime);
+    text-decoration: none;
+}
+
+.hero-btn {
+    background-color: var(--lime);
+    color: white;
+    border-radius: 2px;
+    height: 35px;
+    border: none;
+}
+
+
+.container {
+    padding: 7% 0;
+  }
+
+  .title-image-1 {
+    right: 10%;
+    top: 29%;
+    width: 30%;
+    height: 100%;
+    transform: rotate(-25deg);
+    position: absolute;
+    box-shadow: -20px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .title-image-2 {
+    top: 0%;
+    right: -27%;
+    width: 35%;
+    transform: rotate(-25deg);
+    position: absolute;
+    box-shadow: -20px 10px 30px rgba(0, 0, 0, 0.7);
+  }
+
+
+  /* Services */
+
+
+  #services {
+      position: relative;
+      z-index: 1;
+      background-color: white;
+  }
+
+  .heading {
+      color: black;
+      text-align: center;
+  }
+
+  .feature-box {
+      text-align: center;
+  }
+
+  .feature-title {
+      color: black;
+      font-size: 1.2rem;
+  }
+
+
+  .relative {
+      position: relative;
+  }
+
+
+  /* VR */
+
+
+  #vr {
+      padding: 120px 0;
+      position: relative;
+  }
+
+  .black-bg {
+      background-color: black;
+  }
+
+  .vr-heading {
+      text-align: left;
+  }
+
+  .vr-image {
+      top: -20%;
+      left: 0%;
+      position: absolute;
+      width: 50%;
+  }
+
+
+  /* Demographics */
+
+
+  #demographics {
+      position: relative;
+      background-color: white;
+      z-index: 1;
+      padding: 6% 10%;
+  }
+
+  #demographics p {
+      color: gray;
+  }
+
+  .demo-div{
+      padding: 80px 0;
+  }
+
+  .demo-img {
+      width: 90%;
+  }
+
+
+/* Pricing */
+
+#pricing {
+    background-color: rgb(240, 240, 240);
+    padding: 5% 10%;
+}
+
+.price-card {
+    background-color: white;
+    width: 28%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Reviews */
+
+.review-img {
+    width: 7%;
+    margin-bottom: 20px;
+}
+
+.star {
+    color: gold;
+}
+
+
+/* Promotion */
+
+#promotion {
+    padding: 5% 0;
+    color: black;
+}
+
+#promotion img {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+#promotion button {
+    padding: 1% 4%;
+}
+
+.left-col {
+    padding: 8% 5%;
+    background-color: rgb(240, 240, 240);
+}
+
+
+/* Subscribe */
+
+
+#subscribe h3 {
+    padding-bottom: 20px;
+    line-height: 2.5rem;
+}
+
+#subscribe p {
+    padding-bottom: 20px;
+}
+
+input {
+      background-color: rgb(240, 240, 240);
+      border: none;
+      padding: 0;
+      height: 33px;
+      width: 250px;
+  }
+
+
+/* Download */
+
+
+#download {
+    background-image: url('../assets/images/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 10%;
+    position: relative;
+    text-align: center;
+}
+
+.girl-image {
+    position: absolute;
+    width: 44%;
+    top: 0%;
+    right: 0%;
+}
+
+.download-btn {
+    background-color: black;
+    height: 55px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.download-btn:hover {
+    background-color: transparent;
+}
+
+#download span {
+    font-size: 0.7rem;
+}
+
+.store-text {
+    font-weight: bold;
+}
+
+.logo {
+    margin: 10px 0 60px;
+}
+
+
+
+
+/* Footer */
+
+
+ #footer {
+     margin-bottom: 0;
+     padding-bottom: 10px;
+     padding-top: 3%;
+ } 
+
+ .footer-logo {
+     background-color: var(--lime);
+     padding: 4px 10px;
+     outline: none;
+     border: none;
+     margin-bottom: 30px;
+ }
